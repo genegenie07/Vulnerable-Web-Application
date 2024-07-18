@@ -16,7 +16,7 @@ pipeline {
                             -Dsonar.projectKey=OWASP \
                             -Dsonar.sources=. \
                             -Dsonar.host.url=http://localhost:9000 \
-                            -Dsonar.login=${SONARQUBE_TOKEN}
+                            -Dsonar.login=textingtoken
                         """
                     }
                 }
