@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // Define the SonarQube server URL and token
-        SONARQUBE_SERVER = 'http://192.168.56.1:9000/'
+        SONARQUBE_SERVER = 'http://192.168.10.116:9000/'
         SONARQUBE_TOKEN = 'sqp_e08347e9c102dacba7f324d6600d9b90a085aad7'
     }
     
